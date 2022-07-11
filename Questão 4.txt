@@ -1,0 +1,31 @@
+package Faturamento;
+
+public class Faturamento {
+     public static void main(String[] args){
+        double SP= 67836.43;
+        double RJ= 36678.66; 
+        double MG = 29229.88; 
+        double ES =27165.48;
+        double OU =19849.53;
+        double fatTotal;
+         
+        fatTotal = SP + RJ + MG + ES+ OU;
+        System.out.printf("Fatamento total: %f\n", fatTotal);
+        
+        double porcenSP = SP/fatTotal *100;
+        System.out.printf("Porcentagem do estado de SP: %f\n", porcenSP);
+        
+        double porcenRJ = RJ/fatTotal *100;
+        System.out.printf("Porcentagem do estado de RJ: %f\n", porcenRJ);
+        
+        double porcenMG = MG/fatTotal *100;
+        System.out.printf("Porcentagem do estado de MG: %f\n", porcenMG);
+        
+        double porcenES = ES/fatTotal *100;
+        System.out.printf("Porcentagem do estado de ES: %f\n", porcenES);
+        
+        double porcenOU = OU/fatTotal *100;
+        System.out.printf("Porcentagem do estado de OU: %f\n", porcenOU);
+        
+     }
+}
